@@ -148,9 +148,6 @@ CAT_INFO = {
     "actinide":   {"label": "Aktinida",             "bg": "#F1EFE8", "color": "#444441", "border": "#B4B2A9"},
 }
 
-# ══════════════════════════════════════════════════════════════════
-# DATA UNSUR KEHIDUPAN
-# ══════════════════════════════════════════════════════════════════
 ELEMENT_INFO = {
     "O":  {"nama": "Oksigen",    "nomor": 8,  "massa": 15.999, "golongan": "Non-Logam"},
     "C":  {"nama": "Karbon",     "nomor": 6,  "massa": 12.011, "golongan": "Non-Logam"},
@@ -190,83 +187,83 @@ BAGIAN_TUBUH = {
     "🦴 Tulang & Gigi": {
         "deskripsi": "Tulang dan gigi adalah jaringan keras utama dalam tubuh manusia yang berfungsi sebagai penyangga, pelindung organ vital, dan tempat produksi sel darah.",
         "unsur": [
-            {"simbol": "Ca", "persen": 39.0,    "fungsi": "Komponen utama hidroksiapatit — mineral penyusun tulang dan gigi, menjaga kepadatan dan kekuatan struktur tulang."},
-            {"simbol": "O",  "persen": 28.0,    "fungsi": "Terdapat dalam gugus fosfat dan hidroksil pada hidroksiapatit, serta dalam matriks organik kolagen."},
-            {"simbol": "P",  "persen": 17.0,    "fungsi": "Bergabung dengan kalsium membentuk kalsium fosfat, menyusun sekitar 85% cadangan fosfor tubuh ada di tulang."},
-            {"simbol": "C",  "persen": 15.0,    "fungsi": "Menyusun kolagen — protein organik utama yang memberi elastisitas dan ketahanan tulang terhadap benturan."},
-            {"simbol": "H",  "persen": 1.0,     "fungsi": "Terdapat dalam gugus hidroksil (-OH) pada mineral hidroksiapatit dan dalam struktur kolagen."},
+            {"simbol": "Ca", "persen": 39.0,  "fungsi": "Komponen utama hidroksiapatit — mineral penyusun tulang dan gigi, menjaga kepadatan dan kekuatan struktur tulang."},
+            {"simbol": "O",  "persen": 28.0,  "fungsi": "Terdapat dalam gugus fosfat dan hidroksil pada hidroksiapatit, serta dalam matriks organik kolagen."},
+            {"simbol": "P",  "persen": 17.0,  "fungsi": "Bergabung dengan kalsium membentuk kalsium fosfat, menyusun sekitar 85% cadangan fosfor tubuh ada di tulang."},
+            {"simbol": "C",  "persen": 15.0,  "fungsi": "Menyusun kolagen — protein organik utama yang memberi elastisitas dan ketahanan tulang terhadap benturan."},
+            {"simbol": "H",  "persen": 1.0,   "fungsi": "Terdapat dalam gugus hidroksil (-OH) pada mineral hidroksiapatit dan dalam struktur kolagen."},
         ]
     },
     "🩸 Darah": {
         "deskripsi": "Darah adalah jaringan cair yang beredar dalam sistem peredaran darah, bertugas mengangkut oksigen, nutrisi, hormon, dan membuang sisa metabolisme.",
         "unsur": [
-            {"simbol": "O",  "persen": 65.0,    "fungsi": "Diangkut oleh hemoglobin dari paru-paru ke seluruh sel tubuh, merupakan komponen utama molekul air dalam plasma."},
-            {"simbol": "C",  "persen": 18.0,    "fungsi": "Menyusun protein plasma (albumin, globulin, fibrinogen), glukosa, dan senyawa organik lain dalam darah."},
-            {"simbol": "H",  "persen": 10.0,    "fungsi": "Komponen utama molekul air (H₂O) yang mendominasi plasma darah (~90% plasma adalah air)."},
-            {"simbol": "N",  "persen": 3.0,     "fungsi": "Menyusun asam amino dan protein darah seperti hemoglobin, albumin, dan antibodi."},
-            {"simbol": "Na", "persen": 0.3,     "fungsi": "Ion utama ekstraseluler yang menjaga tekanan osmotik darah dan keseimbangan cairan dalam tubuh."},
-            {"simbol": "Cl", "persen": 0.3,     "fungsi": "Anion utama dalam plasma darah yang menjaga keseimbangan elektrolit dan pH darah bersama bikarbonat."},
-            {"simbol": "K",  "persen": 0.2,     "fungsi": "Ion utama intraseluler yang berperan dalam transmisi impuls saraf dan kontraksi otot jantung."},
-            {"simbol": "Fe", "persen": 0.006,   "fungsi": "Inti atom pusat hemoglobin yang mengikat dan melepas oksigen. Kekurangan Fe menyebabkan anemia."},
+            {"simbol": "O",  "persen": 65.0,  "fungsi": "Diangkut oleh hemoglobin dari paru-paru ke seluruh sel tubuh."},
+            {"simbol": "C",  "persen": 18.0,  "fungsi": "Menyusun protein plasma (albumin, globulin, fibrinogen) dan glukosa."},
+            {"simbol": "H",  "persen": 10.0,  "fungsi": "Komponen utama molekul air (H₂O) yang mendominasi plasma darah."},
+            {"simbol": "N",  "persen": 3.0,   "fungsi": "Menyusun asam amino dan protein darah seperti hemoglobin dan antibodi."},
+            {"simbol": "Na", "persen": 0.3,   "fungsi": "Ion utama ekstraseluler yang menjaga tekanan osmotik darah."},
+            {"simbol": "Cl", "persen": 0.3,   "fungsi": "Anion utama dalam plasma darah yang menjaga keseimbangan elektrolit."},
+            {"simbol": "K",  "persen": 0.2,   "fungsi": "Ion utama intraseluler yang berperan dalam transmisi impuls saraf."},
+            {"simbol": "Fe", "persen": 0.006, "fungsi": "Inti atom pusat hemoglobin yang mengikat dan melepas oksigen."},
         ]
     },
     "💪 Otot": {
-        "deskripsi": "Jaringan otot adalah jaringan yang mampu berkontraksi dan relaksasi untuk menghasilkan gerakan tubuh, baik gerakan sadar maupun tidak sadar.",
+        "deskripsi": "Jaringan otot adalah jaringan yang mampu berkontraksi dan relaksasi untuk menghasilkan gerakan tubuh.",
         "unsur": [
-            {"simbol": "O",  "persen": 65.0,  "fungsi": "Diperlukan untuk respirasi aerobik dalam mitokondria sel otot untuk menghasilkan ATP sebagai energi kontraksi."},
-            {"simbol": "C",  "persen": 18.0,  "fungsi": "Menyusun protein struktural otot seperti aktin dan miosin yang bertanggung jawab terhadap mekanisme kontraksi."},
-            {"simbol": "H",  "persen": 10.0,  "fungsi": "Komponen air intraseluler dan menyusun seluruh rantai protein otot bersama karbon dan nitrogen."},
-            {"simbol": "N",  "persen": 3.0,   "fungsi": "Menyusun asam amino pembentuk protein otot, termasuk aktin, miosin, troponin, dan tropomiosin."},
-            {"simbol": "K",  "persen": 0.35,  "fungsi": "Menjaga potensial membran sel otot dan berperan dalam depolarisasi yang memicu kontraksi."},
-            {"simbol": "P",  "persen": 0.2,   "fungsi": "Terdapat dalam ATP (adenosin trifosfat) dan kreatin fosfat — sumber energi langsung untuk kontraksi otot."},
-            {"simbol": "Ca", "persen": 0.1,   "fungsi": "Ion kalsium memicu kontraksi otot dengan berikatan pada troponin C untuk mengaktifkan mekanisme filamen geser."},
-            {"simbol": "Mg", "persen": 0.05,  "fungsi": "Kofaktor enzim ATPase miosin — diperlukan agar ATP dapat terhidrolisis dan menghasilkan energi untuk kontraksi."},
+            {"simbol": "O",  "persen": 65.0,  "fungsi": "Diperlukan untuk respirasi aerobik dalam mitokondria sel otot."},
+            {"simbol": "C",  "persen": 18.0,  "fungsi": "Menyusun protein struktural otot seperti aktin dan miosin."},
+            {"simbol": "H",  "persen": 10.0,  "fungsi": "Komponen air intraseluler dan menyusun seluruh rantai protein otot."},
+            {"simbol": "N",  "persen": 3.0,   "fungsi": "Menyusun asam amino pembentuk protein otot."},
+            {"simbol": "K",  "persen": 0.35,  "fungsi": "Menjaga potensial membran sel otot dan berperan dalam depolarisasi."},
+            {"simbol": "P",  "persen": 0.2,   "fungsi": "Terdapat dalam ATP — sumber energi langsung untuk kontraksi otot."},
+            {"simbol": "Ca", "persen": 0.1,   "fungsi": "Ion kalsium memicu kontraksi otot dengan berikatan pada troponin C."},
+            {"simbol": "Mg", "persen": 0.05,  "fungsi": "Kofaktor enzim ATPase miosin untuk hidrolisis ATP."},
         ]
     },
     "🧠 Otak & Saraf": {
-        "deskripsi": "Sistem saraf terdiri dari otak, sumsum tulang belakang, dan jaringan saraf yang mengatur dan mengoordinasikan seluruh fungsi tubuh.",
+        "deskripsi": "Sistem saraf terdiri dari otak, sumsum tulang belakang, dan jaringan saraf yang mengatur seluruh fungsi tubuh.",
         "unsur": [
-            {"simbol": "O",  "persen": 65.0,      "fungsi": "Otak mengonsumsi ~20% oksigen tubuh — dibutuhkan untuk metabolisme glukosa neuron."},
-            {"simbol": "C",  "persen": 18.0,      "fungsi": "Menyusun lipid mielin yang melapisi akson saraf, serta neurotransmiter dan reseptor protein di sinaps."},
-            {"simbol": "H",  "persen": 10.0,      "fungsi": "Komponen utama air dan seluruh molekul organik pembentuk jaringan otak termasuk fosfolipid membran sel saraf."},
-            {"simbol": "N",  "persen": 3.0,       "fungsi": "Menyusun neurotransmiter seperti dopamin, serotonin, GABA, dan glutamat yang mengirimkan sinyal antar neuron."},
-            {"simbol": "P",  "persen": 1.1,       "fungsi": "Komponen fosfolipid pada membran sel saraf (mielin) dan terlibat dalam ATP untuk transmisi sinyal saraf."},
-            {"simbol": "K",  "persen": 0.35,      "fungsi": "Ion kalium keluar saat repolarisasi, mengembalikan potensial membran neuron ke kondisi istirahat."},
-            {"simbol": "Na", "persen": 0.15,      "fungsi": "Ion natrium masuk ke dalam sel saraf saat depolarisasi, memicu potensial aksi untuk transmisi impuls."},
-            {"simbol": "I",  "persen": 0.00002,   "fungsi": "Hormon tiroid yang mengandung iodin berperan krusial dalam perkembangan otak janin dan fungsi kognitif."},
+            {"simbol": "O",  "persen": 65.0,    "fungsi": "Otak mengonsumsi ~20% oksigen tubuh untuk metabolisme glukosa neuron."},
+            {"simbol": "C",  "persen": 18.0,    "fungsi": "Menyusun lipid mielin yang melapisi akson saraf."},
+            {"simbol": "H",  "persen": 10.0,    "fungsi": "Komponen utama air dan fosfolipid membran sel saraf."},
+            {"simbol": "N",  "persen": 3.0,     "fungsi": "Menyusun neurotransmiter seperti dopamin, serotonin, dan GABA."},
+            {"simbol": "P",  "persen": 1.1,     "fungsi": "Komponen fosfolipid pada membran sel saraf (mielin)."},
+            {"simbol": "K",  "persen": 0.35,    "fungsi": "Ion kalium keluar saat repolarisasi, mengembalikan potensial membran."},
+            {"simbol": "Na", "persen": 0.15,    "fungsi": "Ion natrium masuk ke dalam sel saraf saat depolarisasi."},
+            {"simbol": "I",  "persen": 0.00002, "fungsi": "Hormon tiroid mengandung iodin, krusial dalam perkembangan otak."},
         ]
     },
     "🫁 Paru-paru": {
-        "deskripsi": "Paru-paru adalah organ pernapasan yang memfasilitasi pertukaran gas antara udara dan darah — mengambil oksigen dan membuang karbon dioksida.",
+        "deskripsi": "Paru-paru adalah organ pernapasan yang memfasilitasi pertukaran gas antara udara dan darah.",
         "unsur": [
-            {"simbol": "O",  "persen": 65.0, "fungsi": "Gas oksigen diserap dari udara melalui alveolus masuk ke kapiler darah untuk didistribusikan ke seluruh tubuh."},
-            {"simbol": "C",  "persen": 18.0, "fungsi": "Menyusun surfaktan paru (fosfolipid) yang melapisi alveolus mencegah kolaps, serta CO₂ sebagai produk buangan."},
-            {"simbol": "H",  "persen": 10.0, "fungsi": "Komponen air dalam lapisan cairan tipis alveolus yang memudahkan difusi gas antara udara dan darah."},
-            {"simbol": "N",  "persen": 3.0,  "fungsi": "Menyusun protein elastin dan kolagen pada jaringan paru yang memberikan elastisitas untuk pengembangan dan pengempisan."},
-            {"simbol": "Ca", "persen": 0.1,  "fungsi": "Berperan dalam regulasi tonus otot polos bronkus dan sekresi mukus pada saluran pernapasan."},
+            {"simbol": "O",  "persen": 65.0, "fungsi": "Gas oksigen diserap dari udara melalui alveolus masuk ke kapiler darah."},
+            {"simbol": "C",  "persen": 18.0, "fungsi": "Menyusun surfaktan paru (fosfolipid) yang melapisi alveolus."},
+            {"simbol": "H",  "persen": 10.0, "fungsi": "Komponen air dalam lapisan cairan tipis alveolus."},
+            {"simbol": "N",  "persen": 3.0,  "fungsi": "Menyusun protein elastin dan kolagen pada jaringan paru."},
+            {"simbol": "Ca", "persen": 0.1,  "fungsi": "Berperan dalam regulasi tonus otot polos bronkus."},
         ]
     },
     "🫀 Jantung": {
-        "deskripsi": "Jantung adalah organ otot berongga yang memompa darah ke seluruh tubuh melalui sistem peredaran darah secara terus-menerus sepanjang hidup.",
+        "deskripsi": "Jantung adalah organ otot berongga yang memompa darah ke seluruh tubuh secara terus-menerus.",
         "unsur": [
-            {"simbol": "O",  "persen": 65.0,  "fungsi": "Jantung membutuhkan pasokan oksigen konstan melalui arteri koroner untuk mempertahankan kontraksi yang berkelanjutan."},
-            {"simbol": "C",  "persen": 18.0,  "fungsi": "Menyusun protein kontraktil (aktin, miosin) dan membran sel kardiomiosit yang melakukan kontraksi berirama."},
-            {"simbol": "H",  "persen": 10.0,  "fungsi": "Komponen air intraseluler kardiomiosit dan seluruh biomolekul yang terlibat dalam metabolisme sel otot jantung."},
-            {"simbol": "N",  "persen": 3.0,   "fungsi": "Menyusun protein struktural dan enzim dalam kardiomiosit termasuk troponin — penanda kerusakan otot jantung."},
-            {"simbol": "K",  "persen": 0.35,  "fungsi": "Mengatur ritme jantung — ketidakseimbangan kalium dapat menyebabkan aritmia berbahaya."},
-            {"simbol": "Ca", "persen": 0.1,   "fungsi": "Ion kalsium memicu setiap kontraksi jantung melalui mekanisme calcium-induced calcium release."},
-            {"simbol": "Fe", "persen": 0.004, "fungsi": "Komponen mioglobin otot jantung yang menyimpan oksigen lokal untuk kebutuhan energi kontraksi miokardium."},
+            {"simbol": "O",  "persen": 65.0,  "fungsi": "Jantung membutuhkan pasokan oksigen konstan melalui arteri koroner."},
+            {"simbol": "C",  "persen": 18.0,  "fungsi": "Menyusun protein kontraktil (aktin, miosin) kardiomiosit."},
+            {"simbol": "H",  "persen": 10.0,  "fungsi": "Komponen air intraseluler kardiomiosit."},
+            {"simbol": "N",  "persen": 3.0,   "fungsi": "Menyusun protein struktural termasuk troponin."},
+            {"simbol": "K",  "persen": 0.35,  "fungsi": "Mengatur ritme jantung — ketidakseimbangan kalium dapat menyebabkan aritmia."},
+            {"simbol": "Ca", "persen": 0.1,   "fungsi": "Ion kalsium memicu setiap kontraksi jantung."},
+            {"simbol": "Fe", "persen": 0.004, "fungsi": "Komponen mioglobin otot jantung yang menyimpan oksigen lokal."},
         ]
     },
     "🦷 Kulit": {
-        "deskripsi": "Kulit adalah organ terbesar tubuh manusia yang berfungsi sebagai pelindung fisik, termoregulasi, sensoris, dan sintesis vitamin D.",
+        "deskripsi": "Kulit adalah organ terbesar tubuh manusia yang berfungsi sebagai pelindung fisik, termoregulasi, dan sensoris.",
         "unsur": [
-            {"simbol": "O",  "persen": 65.0,  "fungsi": "Terdapat dalam semua biomolekul kulit termasuk kolagen, elastin, keratin, dan cairan interstisial dermis."},
-            {"simbol": "C",  "persen": 18.0,  "fungsi": "Menyusun keratin (protein pelindung epidermis), kolagen dan elastin (dermis), serta lipid pelindung pada stratum korneum."},
-            {"simbol": "H",  "persen": 10.0,  "fungsi": "Komponen air yang menjaga kelembapan dan turgor kulit, serta menyusun seluruh protein struktural kulit."},
-            {"simbol": "N",  "persen": 3.0,   "fungsi": "Menyusun asam amino dalam keratin, kolagen, dan elastin yang memberikan kekuatan dan elastisitas pada kulit."},
-            {"simbol": "S",  "persen": 0.3,   "fungsi": "Terdapat dalam asam amino sistein — membentuk ikatan disulfida yang mengunci struktur keratin sehingga kulit tahan air."},
-            {"simbol": "Zn", "persen": 0.002, "fungsi": "Kofaktor enzim superoksida dismutase yang melindungi kulit dari radikal bebas, serta mendukung penyembuhan luka."},
+            {"simbol": "O",  "persen": 65.0,  "fungsi": "Terdapat dalam semua biomolekul kulit termasuk kolagen dan elastin."},
+            {"simbol": "C",  "persen": 18.0,  "fungsi": "Menyusun keratin, kolagen, dan elastin dalam kulit."},
+            {"simbol": "H",  "persen": 10.0,  "fungsi": "Komponen air yang menjaga kelembapan dan turgor kulit."},
+            {"simbol": "N",  "persen": 3.0,   "fungsi": "Menyusun asam amino dalam keratin, kolagen, dan elastin."},
+            {"simbol": "S",  "persen": 0.3,   "fungsi": "Membentuk ikatan disulfida yang mengunci struktur keratin."},
+            {"simbol": "Zn", "persen": 0.002, "fungsi": "Kofaktor enzim yang melindungi kulit dan mendukung penyembuhan luka."},
         ]
     },
 }
@@ -274,32 +271,32 @@ BAGIAN_TUBUH = {
 BENDA_SEHARI = {
     "💧 Air (H₂O)": {
         "rumus": "H₂O",
-        "deskripsi": "Air adalah senyawa paling melimpah di bumi dan pelarut universal yang menopang seluruh kehidupan. Tubuh manusia terdiri dari 60–70% air.",
+        "deskripsi": "Air adalah senyawa paling melimpah di bumi dan pelarut universal yang menopang seluruh kehidupan.",
         "unsur": [{"simbol": "H", "jumlah": 2}, {"simbol": "O", "jumlah": 1}],
-        "fakta": "Air memiliki tegangan permukaan tinggi akibat ikatan hidrogen antar molekulnya, memungkinkan serangga berjalan di atas air.",
+        "fakta": "Air memiliki tegangan permukaan tinggi akibat ikatan hidrogen antar molekulnya.",
     },
     "🧂 Garam Dapur (NaCl)": {
         "rumus": "NaCl",
         "deskripsi": "Natrium klorida adalah senyawa ionik yang digunakan sebagai bumbu dan pengawet makanan sejak ribuan tahun lalu.",
         "unsur": [{"simbol": "Na", "jumlah": 1}, {"simbol": "Cl", "jumlah": 1}],
-        "fakta": "Garam laut mengandung lebih dari 80 jenis mineral selain NaCl murni, termasuk magnesium dan kalsium.",
+        "fakta": "Garam laut mengandung lebih dari 80 jenis mineral selain NaCl murni.",
     },
     "🪟 Kaca (SiO₂)": {
         "rumus": "SiO₂",
         "deskripsi": "Silikon dioksida adalah bahan utama pembuatan kaca yang terbentuk dari SiO₂ yang dicairkan pada suhu ~1700°C.",
         "unsur": [{"simbol": "Si", "jumlah": 1}, {"simbol": "O", "jumlah": 2}],
-        "fakta": "Pasir pantai sebagian besar adalah SiO₂. Kaca bersifat amorf sehingga secara teknis dianggap cairan super-dingin.",
+        "fakta": "Pasir pantai sebagian besar adalah SiO₂. Kaca bersifat amorf sehingga dianggap cairan super-dingin.",
     },
     "🔩 Baja (Fe + C)": {
         "rumus": "Fe-C",
-        "deskripsi": "Baja adalah paduan logam antara besi dan karbon. Baja struktural mengandung Cr dan Ni untuk ketahanan terhadap korosi.",
+        "deskripsi": "Baja adalah paduan logam antara besi dan karbon dengan tambahan Cr dan Ni untuk ketahanan korosi.",
         "unsur": [
             {"simbol": "Fe", "jumlah": 1},
             {"simbol": "C",  "jumlah": None},
             {"simbol": "Cr", "jumlah": None},
             {"simbol": "Ni", "jumlah": None},
         ],
-        "fakta": "Baja nirkarat (stainless steel) mengandung minimal 10,5% kromium yang membentuk lapisan oksida pelindung.",
+        "fakta": "Baja nirkarat mengandung minimal 10,5% kromium yang membentuk lapisan oksida pelindung.",
     },
     "🥄 Aluminium Foil (Al)": {
         "rumus": "Al",
@@ -309,7 +306,7 @@ BENDA_SEHARI = {
     },
     "🪥 Pasta Gigi (NaF / CaF₂)": {
         "rumus": "NaF / CaF₂",
-        "deskripsi": "Pasta gigi mengandung fluorida yang memperkuat enamel gigi dengan membentuk fluorapatit yang tahan asam bakteri.",
+        "deskripsi": "Pasta gigi mengandung fluorida yang memperkuat enamel gigi dengan membentuk fluorapatit yang tahan asam.",
         "unsur": [
             {"simbol": "Ca", "jumlah": 1},
             {"simbol": "F",  "jumlah": 2},
@@ -336,12 +333,13 @@ BENDA_SEHARI = {
             {"simbol": "Sn", "jumlah": None},
             {"simbol": "Fe", "jumlah": None},
         ],
-        "fakta": "Lapisan timah pada kaleng makanan hanya setebal 0,0003 mm, namun cukup untuk mencegah korosi selama bertahun-tahun.",
+        "fakta": "Lapisan timah pada kaleng makanan hanya setebal 0,0003 mm namun cukup mencegah korosi bertahun-tahun.",
     },
 }
 
+
 # ══════════════════════════════════════════════════════════════════
-# FUNGSI: TABEL PERIODIK HTML
+# BUILD FULL PERIODIC TABLE HTML
 # ══════════════════════════════════════════════════════════════════
 def build_full_html(elements, cat_info):
     el_json  = json.dumps({e["sym"]: e for e in elements})
@@ -489,36 +487,49 @@ window.addEventListener('message',function(event){{
 </script></body></html>"""
 
 
-# ══════════════════════════════════════════════════════════════════
-# FUNGSI: KARTU UNSUR (plain HTML string, bukan st.markdown)
-# ══════════════════════════════════════════════════════════════════
 def kartu_unsur_html(simbol, fungsi="", persen=None):
     if simbol not in ELEMENT_INFO:
         return ""
     el = ELEMENT_INFO[simbol]
-    warna = WARNA_GOLONGAN.get(el["golongan"], "#EEEEEE")
-    persen_str = ""
+    nama   = el["nama"]
+    nomor  = el["nomor"]
+    massa  = el["massa"]
+    gol    = el["golongan"]
+    warna  = WARNA_GOLONGAN.get(gol, "#EEEEEE")
+
     if persen is not None:
         if persen < 0.001:
-            persen_str = f"<span style='font-size:11px;color:#555;'>{persen:.5f}%</span>"
+            p_fmt = f"{persen:.5f}%"
         elif persen < 0.1:
-            persen_str = f"<span style='font-size:11px;color:#555;'>{persen:.3f}%</span>"
+            p_fmt = f"{persen:.3f}%"
         else:
-            persen_str = f"<span style='font-size:11px;color:#555;'>{persen:.1f}%</span>"
-    fungsi_str = f"<div style='font-size:12px;color:#333;margin-top:5px;line-height:1.5;'>{fungsi}</div>" if fungsi else ""
-    return f"""
-    <div style="background:{warna}33;border:1.5px solid {warna};border-radius:10px;padding:10px 14px;margin-bottom:8px;">
-        <div style="display:flex;align-items:center;justify-content:space-between;">
-            <div style="display:flex;align-items:center;gap:8px;">
-                <span style="font-size:20px;font-weight:700;">{simbol}</span>
-                <span style="font-size:13px;color:#444;">{el['nama']}</span>
-                {persen_str}
-            </div>
-            <span style="font-size:11px;background:{warna};padding:2px 8px;border-radius:10px;color:#333;">{el['golongan']}</span>
-        </div>
-        <div style="font-size:11px;color:#666;margin-top:4px;">No. Atom: <b>{el['nomor']}</b> &nbsp;|&nbsp; Massa: <b>{el['massa']} u</b></div>
-        {fungsi_str}
-    </div>"""
+            p_fmt = f"{persen:.1f}%"
+        persen_badge = (
+            f'<span style="font-size:11px;color:#555;margin-left:4px;">{p_fmt}</span>'
+        )
+    else:
+        persen_badge = ""
+
+    fungsi_div = (
+        f'<div style="font-size:12px;color:#333;margin-top:5px;line-height:1.5;">{fungsi}</div>'
+        if fungsi else ""
+    )
+
+    return (
+        f'<div style="background:{warna}33;border:1.5px solid {warna};border-radius:10px;'
+        f'padding:10px 14px;margin-bottom:8px;">'
+        f'<div style="display:flex;align-items:center;justify-content:space-between;">'
+        f'<div style="display:flex;align-items:center;gap:8px;">'
+        f'<span style="font-size:20px;font-weight:700;">{simbol}</span>'
+        f'<span style="font-size:13px;color:#444;">{nama}</span>'
+        f'{persen_badge}'
+        f'</div>'
+        f'<span style="font-size:11px;background:{warna};padding:2px 8px;border-radius:10px;color:#333;">{gol}</span>'
+        f'</div>'
+        f'<div style="font-size:11px;color:#666;margin-top:4px;">No. Atom: <b>{nomor}</b> &nbsp;|&nbsp; Massa: <b>{massa} u</b></div>'
+        f'{fungsi_div}'
+        f'</div>'
+    )
 
 
 def hitung_bobot_molekul(unsur_list):
@@ -540,26 +551,37 @@ def hitung_bobot_molekul(unsur_list):
 # HALAMAN: TABEL PERIODIK
 # ══════════════════════════════════════════════════════════════════
 def page_tabel_periodik():
-    st.markdown("### 🔍 Cari Elemen")
-    query = st.text_input("Nama atau simbol", placeholder="Contoh: Emas / Au")
+    # ── Sidebar: hanya navigasi + search ──
+    with st.sidebar:
+        st.markdown("## ⚛️ Tabel Periodik")
+        st.markdown("---")
+        query = st.text_input("🔍 Cari Elemen", placeholder="Contoh: Emas / Au", key="search_el")
+        st.markdown("---")
+
+    # ── Main area: tabel periodik ──
+    st.title("⚛️ Tabel Periodik Kimia")
+    st.caption("Klik elemen di tabel untuk melihat informasi lengkapnya.")
+
+    # Render tombol hasil search di sidebar SETELAH definisi area utama
     candidates = sorted(ELEMENTS, key=lambda x: x["n"])
     if query:
         candidates = [e for e in candidates
                       if query.lower() in e["name"].lower() or query.lower() in e["sym"].lower()]
-    st.markdown(f"**{len(candidates)} elemen**")
 
-    buttons_html = ""
-    for e in candidates:
-        info = CAT_INFO[e["cat"]]
-        buttons_html += (
-            f'<div class="sb-el" '
-            f'style="background:{info["bg"]};border:1px solid {info["border"]};color:{info["color"]};" '
-            f'onclick="triggerEl(\'{e["sym"]}\')">'
-            f'<b>{e["sym"]}</b> — {e["name"]}'
-            f'</div>'
-        )
+    with st.sidebar:
+        st.markdown(f"**{len(candidates)} elemen**")
+        buttons_html = ""
+        for e in candidates:
+            info = CAT_INFO[e["cat"]]
+            buttons_html += (
+                f'<div class="sb-el" '
+                f'style="background:{info["bg"]};border:1px solid {info["border"]};color:{info["color"]};" '
+                f'onclick="triggerEl(\'{e["sym"]}\')">'
+                f'<b>{e["sym"]}</b> — {e["name"]}'
+                f'</div>'
+            )
 
-    sidebar_html = f"""<!DOCTYPE html><html><head><meta charset="utf-8">
+        sidebar_html = f"""<!DOCTYPE html><html><head><meta charset="utf-8">
 <style>
 *{{box-sizing:border-box;margin:0;padding:0;}}
 body{{font-family:system-ui,sans-serif;background:transparent;}}
@@ -576,12 +598,10 @@ function triggerEl(sym){{
 }}
 </script></body></html>"""
 
-    sidebar_height = max(50, len(candidates) * 37)
-    components.html(sidebar_html, height=sidebar_height, scrolling=True)
+        sidebar_height = max(50, len(candidates) * 37)
+        components.html(sidebar_html, height=min(sidebar_height, 500), scrolling=True)
 
-    # Area utama tabel periodik
-    st.title("⚛️ Tabel Periodik Kimia")
-    st.caption("Klik elemen di tabel untuk melihat informasi lengkapnya.")
+    # Render tabel periodik di area UTAMA
     html_content = build_full_html(ELEMENTS, CAT_INFO)
     components.html(html_content, height=900, scrolling=True)
 
@@ -595,7 +615,6 @@ def page_unsur_kehidupan():
 
     tab1, tab2 = st.tabs(["🫀 Tubuh Manusia", "🏠 Benda Sehari-hari"])
 
-    # ── TAB 1: TUBUH MANUSIA ──
     with tab1:
         st.subheader("Unsur Penyusun Tubuh Manusia")
         st.markdown("Pilih bagian tubuh untuk melihat unsur-unsur kimia penyusunnya beserta fungsi biologisnya.")
@@ -606,14 +625,15 @@ def page_unsur_kehidupan():
         st.info(data["deskripsi"])
         st.markdown("#### 🔬 Unsur Penyusun")
 
-        # Render semua kartu sekaligus dalam satu st.markdown
         html_cards = "".join(
             kartu_unsur_html(item["simbol"], fungsi=item["fungsi"], persen=item["persen"])
             for item in data["unsur"]
         )
-        st.markdown(html_cards, unsafe_allow_html=True)
+        card_html = f"""<!DOCTYPE html><html><head><meta charset="utf-8">
+<style>*{{box-sizing:border-box;margin:0;padding:0;font-family:system-ui,sans-serif;}}</style>
+</head><body style="background:transparent;padding:4px 0;">{html_cards}</body></html>"""
+        components.html(card_html, height=len(data["unsur"]) * 115, scrolling=False)
 
-        # Grafik persentase
         st.markdown("#### 📊 Komposisi Persentase")
         df_chart = pd.DataFrame([
             {
@@ -624,7 +644,6 @@ def page_unsur_kehidupan():
         ]).sort_values("Persentase (%)", ascending=False)
         st.bar_chart(df_chart.set_index("Unsur"), use_container_width=True)
 
-    # ── TAB 2: BENDA SEHARI-HARI ──
     with tab2:
         st.subheader("Unsur dalam Benda Sehari-hari")
         st.markdown("Pilih benda untuk melihat unsur-unsur penyusunnya dan menghitung bobot molekulnya.")
@@ -643,7 +662,6 @@ def page_unsur_kehidupan():
                 <div style="font-size:26px;font-weight:700;color:#1a1a2e;">{benda['rumus']}</div>
             </div>""", unsafe_allow_html=True)
 
-        # Perhitungan bobot molekul
         bm, rincian = hitung_bobot_molekul(benda["unsur"])
         if bm > 0:
             st.markdown("#### ⚖️ Perhitungan Bobot Molekul")
@@ -661,14 +679,17 @@ def page_unsur_kehidupan():
 
         st.markdown("#### 🔬 Detail Unsur Penyusun")
         html_detail = "".join(kartu_unsur_html(item["simbol"]) for item in benda["unsur"])
-        st.markdown(html_detail, unsafe_allow_html=True)
+        detail_html = f"""<!DOCTYPE html><html><head><meta charset="utf-8">
+<style>*{{box-sizing:border-box;margin:0;padding:0;font-family:system-ui,sans-serif;}}</style>
+</head><body style="background:transparent;padding:4px 0;">{html_detail}</body></html>"""
+        components.html(detail_html, height=len(benda["unsur"]) * 80, scrolling=False)
 
         st.markdown("#### 💡 Fakta Menarik")
         st.success(f"**{pilihan_benda}** — {benda['fakta']}")
 
 
 # ══════════════════════════════════════════════════════════════════
-# NAVIGASI UTAMA (SIDEBAR)
+# NAVIGASI UTAMA
 # ══════════════════════════════════════════════════════════════════
 def main():
     with st.sidebar:
@@ -679,12 +700,12 @@ def main():
             ["🔬 Tabel Periodik", "🌍 Unsur Kehidupan"],
             label_visibility="collapsed"
         )
-        st.markdown("---")
 
     if halaman == "🔬 Tabel Periodik":
-        with st.sidebar:
-            page_tabel_periodik()
+        page_tabel_periodik()
     else:
+        with st.sidebar:
+            st.markdown("---")
         page_unsur_kehidupan()
 
 
