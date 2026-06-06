@@ -757,8 +757,7 @@ def page_beranda():
         <div class="beranda-logo-circle">⚛️</div>
         <div class="beranda-logo-label">Tabel Periodik Kimia</div>
         <div class="beranda-desc">
-            Kalkulator pH Larutan adalah alat online gratis yang dirancang untuk memudahkan
-            pengguna dalam mengeksplorasi 118 unsur kimia, komposisi unsur dalam tubuh manusia,
+            Tabel Periodik Kimia Interatif  dirancang untuk memudahkan pengguna dalam mengeksplorasi 118 unsur kimia, komposisi unsur dalam tubuh manusia,
             dan benda-benda sehari-hari. Silakan pilih menu di sebelah kiri untuk mulai menjelajah.
         </div>
     </div>
