@@ -809,10 +809,6 @@ def page_tentang():
         - Pelajar SMA/sederajat yang sedang mempelajari kimia dasar
         - Mahasiswa yang membutuhkan referensi unsur cepat
         - Siapapun yang penasaran dengan dunia kimia
-
-        ### ⚙️ Teknologi
-        Dibangun menggunakan **Python** dan **Streamlit**, dengan tampilan tabel periodik
-        yang dirender menggunakan HTML/CSS/JavaScript murni.
         """)
     with col2:
         st.markdown("""
