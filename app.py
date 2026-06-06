@@ -689,24 +689,183 @@ def page_unsur_kehidupan():
 
 
 # ══════════════════════════════════════════════════════════════════
+# HALAMAN: BERANDA
+# ══════════════════════════════════════════════════════════════════
+def page_beranda():
+    st.markdown("""
+    <style>
+    .beranda-wrap {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 40px 20px 20px;
+        text-align: center;
+    }
+    .beranda-label {
+        font-size: 12px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #888;
+        margin-bottom: 6px;
+    }
+    .beranda-title {
+        font-size: 36px;
+        font-weight: 700;
+        color: #1a1a2e;
+        margin: 0 0 4px;
+    }
+    .beranda-underline {
+        width: 48px;
+        height: 4px;
+        background: #185FA5;
+        border-radius: 2px;
+        margin: 0 auto 28px;
+    }
+    .beranda-logo-circle {
+        width: 130px;
+        height: 130px;
+        border-radius: 50%;
+        background: #E6F1FB;
+        border: 3px solid #B5D4F4;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto 10px;
+        font-size: 60px;
+    }
+    .beranda-logo-label {
+        font-size: 13px;
+        font-weight: 600;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #185FA5;
+        margin-bottom: 24px;
+    }
+    .beranda-desc {
+        font-size: 14px;
+        color: #555;
+        max-width: 480px;
+        line-height: 1.8;
+        margin: 0 auto 36px;
+    }
+    </style>
+    <div class="beranda-wrap">
+        <div class="beranda-label">Aplikasi Kimia Interaktif</div>
+        <div class="beranda-title">Selamat Datang!</div>
+        <div class="beranda-underline"></div>
+        <div class="beranda-logo-circle">⚛️</div>
+        <div class="beranda-logo-label">Tabel Periodik Kimia</div>
+        <div class="beranda-desc">
+            Kalkulator pH Larutan adalah alat online gratis yang dirancang untuk memudahkan
+            pengguna dalam mengeksplorasi 118 unsur kimia, komposisi unsur dalam tubuh manusia,
+            dan benda-benda sehari-hari. Silakan pilih menu di sebelah kiri untuk mulai menjelajah.
+        </div>
+    </div>
+    """, unsafe_allow_html=True)
+
+    col1, col2, col3 = st.columns(3)
+    with col1:
+        st.markdown("""
+        <div style="background:#E6F1FB;border:1px solid #B5D4F4;border-radius:12px;padding:20px;text-align:center;">
+            <div style="font-size:32px;margin-bottom:8px;">🔬</div>
+            <div style="font-size:14px;font-weight:600;color:#0C447C;">Tabel Periodik</div>
+            <div style="font-size:12px;color:#555;margin-top:4px;">118 elemen interaktif</div>
+        </div>
+        """, unsafe_allow_html=True)
+    with col2:
+        st.markdown("""
+        <div style="background:#E1F5EE;border:1px solid #9FE1CB;border-radius:12px;padding:20px;text-align:center;">
+            <div style="font-size:32px;margin-bottom:8px;">🌍</div>
+            <div style="font-size:14px;font-weight:600;color:#085041;">Unsur Kehidupan</div>
+            <div style="font-size:12px;color:#555;margin-top:4px;">Tubuh & benda sehari-hari</div>
+        </div>
+        """, unsafe_allow_html=True)
+    with col3:
+        st.markdown("""
+        <div style="background:#FAEEDA;border:1px solid #FAC775;border-radius:12px;padding:20px;text-align:center;">
+            <div style="font-size:32px;margin-bottom:8px;">ℹ️</div>
+            <div style="font-size:14px;font-weight:600;color:#633806;">Tentang Aplikasi</div>
+            <div style="font-size:12px;color:#555;margin-top:4px;">Info & cara penggunaan</div>
+        </div>
+        """, unsafe_allow_html=True)
+
+
+# ══════════════════════════════════════════════════════════════════
+# HALAMAN: TENTANG
+# ══════════════════════════════════════════════════════════════════
+def page_tentang():
+    st.title("ℹ️ Tentang Aplikasi")
+    st.markdown("---")
+
+    col1, col2 = st.columns([2, 1])
+    with col1:
+        st.markdown("""
+        ### 📌 Deskripsi
+        **Tabel Periodik Kimia Interaktif** adalah aplikasi edukasi berbasis web yang dirancang
+        untuk memudahkan eksplorasi unsur-unsur kimia secara interaktif.
+
+        Aplikasi ini cocok digunakan oleh:
+        - Pelajar SMA/sederajat yang sedang mempelajari kimia dasar
+        - Mahasiswa yang membutuhkan referensi unsur cepat
+        - Siapapun yang penasaran dengan dunia kimia
+
+        ### ⚙️ Teknologi
+        Dibangun menggunakan **Python** dan **Streamlit**, dengan tampilan tabel periodik
+        yang dirender menggunakan HTML/CSS/JavaScript murni.
+        """)
+    with col2:
+        st.markdown("""
+        <div style="background:#f0f4ff;border:2px solid #4A90D9;border-radius:14px;padding:20px;text-align:center;">
+            <div style="font-size:48px;margin-bottom:8px;">⚛️</div>
+            <div style="font-size:15px;font-weight:700;color:#1a1a2e;">Tabel Periodik</div>
+            <div style="font-size:12px;color:#555;margin-top:4px;">Kimia Interaktif</div>
+            <hr style="margin:12px 0;border-color:#cce;">
+            <div style="font-size:12px;color:#666;">118 Elemen · 10 Kategori</div>
+            <div style="font-size:12px;color:#666;">7 Periode · 18 Golongan</div>
+        </div>
+        """, unsafe_allow_html=True)
+
+    st.markdown("---")
+    col_a, col_b, col_c, col_d = st.columns(4)
+    with col_a:
+        st.metric("Total Elemen", "118")
+    with col_b:
+        st.metric("Kategori", "10")
+    with col_c:
+        st.metric("Periode", "7")
+    with col_d:
+        st.metric("Golongan", "18")
+
+
+# ══════════════════════════════════════════════════════════════════
 # NAVIGASI UTAMA
 # ══════════════════════════════════════════════════════════════════
 def main():
     with st.sidebar:
-        st.markdown("## ⚛️ Tabel Periodik")
+        st.markdown("""
+        <div style="display:flex;align-items:center;gap:8px;padding:4px 0 8px;">
+            <span style="font-size:22px;">⚛️</span>
+            <span style="font-size:16px;font-weight:700;color:#1a1a2e;">Tabel Periodik</span>
+        </div>
+        """, unsafe_allow_html=True)
         st.markdown("---")
+        st.markdown("**Menu**")
         halaman = st.radio(
             "Navigasi",
-            ["🔬 Tabel Periodik", "🌍 Unsur Kehidupan"],
+            ["🏠 Beranda", "🔬 Tabel Periodik", "🌍 Unsur Kehidupan", "ℹ️ Tentang Aplikasi"],
             label_visibility="collapsed"
         )
+        st.markdown("---")
 
-    if halaman == "🔬 Tabel Periodik":
+    if halaman == "🏠 Beranda":
+        page_beranda()
+    elif halaman == "🔬 Tabel Periodik":
         page_tabel_periodik()
-    else:
-        with st.sidebar:
-            st.markdown("---")
+    elif halaman == "🌍 Unsur Kehidupan":
         page_unsur_kehidupan()
+    else:
+        page_tentang()
 
 
 if __name__ == "__main__":
